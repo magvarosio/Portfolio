@@ -31,3 +31,26 @@
   max-height: 100%;
   border-radius: 10px;
 }
+
+
+#about-container {
+  padding: 50px 10% 15px;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+.about-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: stretch;
+  justify-content: center;
+  align-items: center;
+  padding: 35px;
+}
+
+.display-5 {
+  font-family: 'Poppins', sans-serif;
+  overflow: hidden;
+  font-size: 20px;
+}
