@@ -8,8 +8,7 @@ import bored from '../images/boreddemo.gif'
 
 import LinkImg from '../images/Link.png'
 import GithubImg from '../images/github.png'
-// import LinkedinImg from '../images/Linkedin.png'
-// import GmailImg from '../images/Gmail.png'
+
 
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
@@ -48,17 +47,11 @@ const Projects = () => {
               <a className='sitelink' target="_blank" rel="noopener noreferrer" href="...">
                 <Card style={{ width: '7rem' }}>
                   <Card.Img variant="top" src={GithubImg} />
-                  {/* <Card.Body> */}
-                  {/* <h1 className='cardtext'>Repo</h1> */}
-                  {/* </Card.Body> */}
                 </Card>
               </a>
               <a className='sitelink' target="_blank" rel="noopener noreferrer" href="https://moviejournal-project.herokuapp.com/">
                 <Card style={{ width: '7rem' }}>
                   <Card.Img variant="top" src={LinkImg} />
-                  {/* <Card.Body> */}
-                  {/* <h1 className='cardtext'>Visit</h1> */}
-                  {/* </Card.Body> */}
                 </Card>
               </a>
             </div>
@@ -90,17 +83,11 @@ const Projects = () => {
               <a className='sitelink' target="_blank" rel="noopener noreferrer" href="...">
                 <Card style={{ width: '7rem' }}>
                   <Card.Img variant="top" src={GithubImg} />
-                  {/* <Card.Body>
-                    <h1 className='cardtext'>Repo</h1>
-                  </Card.Body> */}
                 </Card>
               </a>
               <a className='sitelink' target="_blank" rel="noopener noreferrer" href="https://moviejournal-project.herokuapp.com/">
                 <Card style={{ width: '7rem' }}>
                   <Card.Img variant="top" src={LinkImg} />
-                  {/* <Card.Body>
-                    <h1 className='cardtext'>Visit</h1>
-                  </Card.Body> */}
                 </Card>
               </a>
             </div>
@@ -127,17 +114,11 @@ const Projects = () => {
               <a className='sitelink' target="_blank" rel="noopener noreferrer" href="github.com/">
                 <Card style={{ width: '7rem' }}>
                   <Card.Img variant="top" src={GithubImg} />
-                  {/* <Card.Body>
-                    <h1 className='cardtext'>Repo</h1>
-                  </Card.Body> */}
                 </Card>
               </a>
               <a className='sitelink' target="_blank" rel="noopener noreferrer" href="https://magvarosio.github.io/project-space-invaders/ ">
                 <Card style={{ width: '7rem' }}>
                   <Card.Img variant="top" src={LinkImg} />
-                  {/* <Card.Body>
-                    <h1 className='cardtext'>Visit</h1>
-                  </Card.Body> */}
                 </Card>
               </a>
             </div>
@@ -163,17 +144,11 @@ const Projects = () => {
               <a className='sitelink' target="_blank" rel="noopener noreferrer" href="github.com/">
                 <Card style={{ width: '7rem' }}>
                   <Card.Img variant="top" src={GithubImg} />
-                  {/* <Card.Body>
-                    <h1 className='cardtext'>Repo</h1>
-                  </Card.Body> */}
                 </Card>
               </a>
               <a className='sitelink' target="_blank" rel="noopener noreferrer" href="https://general-assembly-project-two.netlify.app/ ">
                 <Card style={{ width: '7rem' }}>
                   <Card.Img variant="top" src={LinkImg} />
-                  {/* <Card.Body>
-                    <h1 className='cardtext'>Visit</h1>
-                  </Card.Body> */}
                 </Card>
               </a>
             </div>
