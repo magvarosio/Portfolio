@@ -177,24 +177,9 @@ const Projects = () => {
                 </Card>
               </a>
             </div>
-
-
-
-
           </Row>
         </Container>
       </section>
-
-
-
-
-
-
-
-
-
-
-
     </>
 
 
