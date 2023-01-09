@@ -11,6 +11,7 @@ import Row from 'react-bootstrap/Row'
 
 import Magif from '../images/STARTmag.gif'
 import Aboutme from './Aboutme'
+import Footer from './Footer'
 
 const Home = () => {
 
@@ -30,6 +31,7 @@ const Home = () => {
       <Aboutme />
       <Projects />
       <Skills />
+      <Footer />
 
 
 
