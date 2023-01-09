@@ -2,7 +2,6 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import { createRoot } from 'react-dom/client'
 import './styles/main.scss'
-import './styles/index.scss'
 import './fonts/sysfont.woff'
 
 import 'bootstrap/dist/css/bootstrap.min.css'
