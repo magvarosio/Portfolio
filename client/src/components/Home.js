@@ -28,17 +28,11 @@ const Home = () => {
           </Row>
         </Container>
       </section>
-      <Aboutme />
+
       <Projects />
       <Skills />
+      <Aboutme />
       <Footer />
-
-
-
-
-
-
-
     </div >
   )
 
