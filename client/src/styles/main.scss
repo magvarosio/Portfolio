@@ -4,10 +4,16 @@
   font-family: "sysfont";
 }
 
+@import '../../node_modules/bootstrap/scss/functions';
+@import '../../node_modules/bootstrap/scss/variables';
+
+// @import './components/home';
+
 @font-face {
   font-family: "sysfont";
   src: url("../fonts/sysfont.woff") format("woff");
 }
+
 
 
 
@@ -42,9 +48,9 @@
 }
 
 // h2,
-// .lead {
-//   color: white;
-// }
+.lead {
+  text-align: center;
+}
 
 // .display-3 {
 //   color: rgb(0, 0, 0);
@@ -167,7 +173,7 @@
 
 
 .demo {
-  max-width: 100%;
+  max-width: 150%;
   max-height: 100%;
   border-radius: 10px;
 }
