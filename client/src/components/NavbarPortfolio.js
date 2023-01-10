@@ -22,6 +22,7 @@ const NavbarPortfolio = () => {
         <Nav className="me-auto">
           <Nav.Link href="#aboutme">About Me</Nav.Link>
           <Nav.Link href="#projects">Projects</Nav.Link>
+          <Nav.Link href="#skills">Skills</Nav.Link>
           <Nav.Link href="#contact">Contact</Nav.Link>
         </Nav>
       </Container>

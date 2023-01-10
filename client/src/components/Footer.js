@@ -32,29 +32,25 @@ const Footer = () => {
                 <h2 className="display-3">Contact Me</h2>
               </div>
 
+              <div className="contact-wrapper">
+                {/* <p className="lead">If you would like to learn more about me and my work, please do not hesitate to get into contact.</p> */}
+                <p className="lead">My Gmail is <a href="mailto:margherita.varosio@gmail.com">margherita.varosio@gmail.com</a></p>
+              </div>
+
               <div className="demologo-wrapper">
                 <a className='sitelink' target="_blank" rel="noopener noreferrer" href="mailto:margherita.varosio@gmail.com">
                   <Card style={{ width: '10rem' }}>
                     <Card.Img variant="top" src={GmailImg} />
-                    {/* <Card.Body>
-                    <h1 className='cardtext'>My Gmail</h1>
-                  </Card.Body> */}
                   </Card>
                 </a>
                 <a className='sitelink' target="_blank" rel="noopener noreferrer" href="https://github.com/magvarosio">
                   <Card style={{ width: '10rem' }}>
                     <Card.Img variant="top" src={GithubImg} />
-                    {/* <Card.Body>
-                    <h1 className='cardtext'>My Github</h1>
-                  </Card.Body> */}
                   </Card>
                 </a>
                 <a className='sitelink' target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/margherita-varosio/">
                   <Card style={{ width: '10rem' }}>
                     <Card.Img variant="top" src={LinkedinImg} />
-                    {/* <Card.Body>
-                    <h1 className='cardtext'>My Linkedin</h1>
-                  </Card.Body> */}
                   </Card>
                 </a>
               </div>
