@@ -37,7 +37,8 @@ const Projects = () => {
 
               <div className='pback'>
                 <p className='lead'><strong>Solo Project - Timeframe: 1 week.</strong></p>
-                <p className='lead'>Built a <strong>Full Stack</strong> app using <strong>Django</strong>, <strong>Python</strong>, <strong>SQL</strong> and <strong>Insomnia</strong> for the Back End and <strong>React</strong>, <strong>Cloudify</strong>, <strong>SCSS</strong> and <strong>React-Bootstrap</strong> for the Front End. <br></br>The App is a social media platform for people to share their thoughts about movies they love.
+                <p className='lead'>I worked on a movie app as a solo project creating my own movie database using data from The Movie Database (TMDB) with approximately 5000 movies. The app is a social media platform to share their thoughts about movies they love. I used Django, Python, SQL, Insomnia for the Back End and React, Cloudify, SCSS and React-Bootstrap for the Front End.
+
                 </p>
               </div>
               <div className="demo-wrapper">
@@ -59,31 +60,31 @@ const Projects = () => {
               </div>
 
 
+              {/* ---------------------- PROJ 3--------------------------- */}
 
-
-              {/* ---------------------- PROJ 1--------------------------- */}
 
               <div className="projects-wrapper">
-                <h2 className="display-5">Energy bills Survivor</h2>
+                <h2 className="display-5">Ai Art</h2>
               </div>
 
 
               <div className='pback'>
-                <p className='lead'><strong>Solo project - Timeframe: 1 week.</strong></p>
-                <p className='lead'>I made a <strong>JavaScript</strong> grid-based game with <strong>HTML</strong> and <strong>CSS</strong>. I decided to build a space invaders clone and called it Energy Bills Survivor as the player has to destroy the light bulbs in order to survive the 2022 energy bills.  I did this project as part of the course, which taught me about different aspects of software development. It was a good chance to try out what I learned and build a web app from scratch.
+                <p className='lead'><strong> Group Project (3 People) - Timeframe: 1 week.</strong></p>
+                <p className='lead'>As a group, we made a social media platform for people to share art created with AI. We used <strong>Express</strong>  <strong>Insomnia</strong>, and <strong>MongoDB</strong> for the backend and <strong>React</strong>, <strong>SCSS</strong>, and <strong>Bootstrap</strong> for the front end. We applied the skills and knowledge we gained during the Software Engineering Immersive course at General Assembly to create this project.
                 </p>
               </div>
               <div className="demo-wrapper">
-                <img src={energydemo} className="demo" alt="energydemo"></img>
+                <img src={aiArt} className="demo" alt="aiart"></img>
               </div>
 
               <div className="demologo-wrapper">
-                <a className='sitelink' target="_blank" rel="noopener noreferrer" href="https://github.com/magvarosio/project-space-invaders">
+                {/* github */}
+                <a className='sitelink' target="_blank" rel="noopener noreferrer" href="https://github.com/magvarosio/project-3_SEI67">
                   <Card style={{ width: '7rem' }}>
                     <Card.Img variant="top" src={GithubImg} />
                   </Card>
                 </a>
-                <a className='sitelink' target="_blank" rel="noopener noreferrer" href="https://magvarosio.github.io/project-space-invaders/ ">
+                <a className='sitelink' target="_blank" rel="noopener noreferrer" href="https://github.com/magvarosio/project-3_SEI67">
                   <Card style={{ width: '7rem' }}>
                     <Card.Img variant="top" src={LinkImg} />
                   </Card>
@@ -122,39 +123,40 @@ const Projects = () => {
               </div>
 
 
-
-
-
-              {/* ---------------------- PROJ 3--------------------------- */}
-
+              {/* ---------------------- PROJ 1--------------------------- */}
 
               <div className="projects-wrapper">
-                <h2 className="display-5">Ai Art</h2>
+                <h2 className="display-5">Energy bills Survivor</h2>
               </div>
 
 
               <div className='pback'>
-                <p className='lead'><strong> Group Project (3 People) - Timeframe: 1 week.</strong></p>
-                <p className='lead'>As a group, we made a social media platform for people to share art created with AI. We used <strong>Express</strong>  <strong>Insomnia</strong>, and <strong>MongoDB</strong> for the backend and <strong>React</strong>, <strong>SCSS</strong>, and <strong>Bootstrap</strong> for the front end.We applied the skills and knowledge we gained during the Software Engineering Immersive course at General Assembly to create this project.
+                <p className='lead'><strong>Solo project - Timeframe: 1 week.</strong></p>
+                <p className='lead'>I made a <strong>JavaScript</strong> grid-based game with <strong>HTML</strong> and <strong>CSS</strong>. I decided to build a space invaders clone and called it Energy Bills Survivor as the player has to destroy the light bulbs in order to survive the 2022 energy bills.  I did this project as part of the course, which taught me about different aspects of software development. It was a good chance to try out what I learned and build a web app from scratch.
                 </p>
               </div>
               <div className="demo-wrapper">
-                <img src={aiArt} className="demo" alt="aiart"></img>
+                <img src={energydemo} className="demo" alt="energydemo"></img>
               </div>
 
               <div className="demologo-wrapper">
-                {/* github */}
-                <a className='sitelink' target="_blank" rel="noopener noreferrer" href="https://github.com/magvarosio/project-3_SEI67">
+                <a className='sitelink' target="_blank" rel="noopener noreferrer" href="https://github.com/magvarosio/project-space-invaders">
                   <Card style={{ width: '7rem' }}>
                     <Card.Img variant="top" src={GithubImg} />
                   </Card>
                 </a>
-                <a className='sitelink' target="_blank" rel="noopener noreferrer" href="https://github.com/magvarosio/project-3_SEI67">
+                <a className='sitelink' target="_blank" rel="noopener noreferrer" href="https://magvarosio.github.io/project-space-invaders/ ">
                   <Card style={{ width: '7rem' }}>
                     <Card.Img variant="top" src={LinkImg} />
                   </Card>
                 </a>
               </div>
+
+
+
+
+
+
 
 
             </Row>
