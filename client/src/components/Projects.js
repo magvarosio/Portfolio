@@ -1,9 +1,8 @@
 
 
-
 import moviejournal from '../images/movie4.gif'
 import energydemo from '../images/energy1.gif'
-import aiArt from '../images/ai3.gif'
+import aiArt from '../images/proj3.gif'
 import bored from '../images/bored2.gif'
 
 import LinkImg from '../images/Link.png'
@@ -16,12 +15,37 @@ import Card from 'react-bootstrap/Card'
 
 
 const Projects = () => {
+
+
+  const handleClick = () => {
+    console.log('YEP')
+    window.location.href = 'https://mag-varosio.com/'
+  }
+
   return (
     <>
       <div className='site-wrapper'>
+
         <section id='projects'>
+          <div className="projects-wrapper" id="odyssey-wrapper">
+            <div className="space">
+              <h2 className="display-5" id="odyssey">Ready to go on a 2001 Space Odyssey? </h2>
+              <div className="demologo-wrapper">
+                <button
+                  className="btnspace"
+                  id="space-button"
+                  onClick={handleClick}>
+                  click here
+                </button>
+              </div>
+
+            </div>
+
+
+          </div>
           <Container fluid id="projects-container">
             <Row>
+
               <div className="projects-wrapper">
                 <h2 className="display-3">Projects</h2>
               </div>
@@ -100,7 +124,7 @@ const Projects = () => {
 
 
               <div className='pback'>
-                <p className='lead'><strong>Solo project - Timeframe: 1 week.</strong></p>
+                <p className='lead'><strong>Group Project (3 People) - Timeframe: 1 week.</strong></p>
                 <p className='lead'>“Bored?” is a React application that consumes a public API using React.js, SCSS, and JSX. As a group, we created an app that tries to inspire you with ideas for things to do that are meaningful and productive. I used the skills and knowledge I gained during the first five weeks of the Software Engineering Immersive course at General Assembly to create this project.
                   This project helped me solidify my understanding of React and gave me the opportunity to work on a team and learn from others. Collaborating on this project helped us achieve our shared goal and was a valuable learning experience.
                 </p>
