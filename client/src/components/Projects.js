@@ -26,6 +26,8 @@ const Projects = () => {
     <>
       <div className='site-wrapper'>
 
+        {/* space odyssey */}
+
         <section id='projects'>
           <div className="projects-wrapper" id="odyssey-wrapper">
             <div className="space">
@@ -38,11 +40,11 @@ const Projects = () => {
                   click here
                 </button>
               </div>
-
             </div>
-
-
           </div>
+
+
+
           <Container fluid id="projects-container">
             <Row>
 

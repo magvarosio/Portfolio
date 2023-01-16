@@ -7,6 +7,10 @@ import Row from 'react-bootstrap/Row'
 
 
 const Aboutme = () => {
+
+
+
+
   return (
     <>
 
@@ -38,8 +42,9 @@ const Aboutme = () => {
             </div>
             <div className='pback'>
               <p className='lead'>Music composition is a passion of mine, and I particularly enjoy classical and electronic styles.
-                I am also interested in sound technology, which involves the manipulation and synthesis of sound.
-              </p>
+                I am also interested in sound technology, which involves the manipulation and synthesis of sound. <a href="https://www.athenavarosio.com/">My Music Portfolio</a> </p>
+
+
               <p className='lead'> Filmmaking is another interest of mine, and I enjoy learning about various film editing techniques and exploring different ways to tell stories through film. I find the process of creating and shaping a film to be extremely fascinating.</p>
             </div>
             <div className="hobbies-wrapper">
