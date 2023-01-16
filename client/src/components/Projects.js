@@ -31,7 +31,7 @@ const Projects = () => {
         <section id='projects'>
           <div className="projects-wrapper" id="odyssey-wrapper">
             <div className="space">
-              <h2 className="display-5" id="odyssey">Ready to go on a 2001 Space Odyssey? </h2>
+              <h2 className="display-5" id="odyssey">Ready to go on a 2001 Space Odyssey Portfolio?</h2>
               <div className="demologo-wrapper">
                 <button
                   className="btnspace"
