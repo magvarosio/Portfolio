@@ -171,7 +171,7 @@ const Projects = () => {
                     <Card.Img variant="top" src={GithubImg} />
                   </Card>
                 </a>
-                <a className='sitelink' target="_blank" rel="noopener noreferrer" href="https://magvarosio.github.io/project-space-invaders/ ">
+                <a className='sitelink' target="_blank" rel="noopener noreferrer" href="https://magvarosio.github.io/Energy-bills-survivor/">
                   <Card style={{ width: '7rem' }}>
                     <Card.Img variant="top" src={LinkImg} />
                   </Card>
