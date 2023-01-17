@@ -18,8 +18,8 @@ const Projects = () => {
 
 
   const handleClick = () => {
-    console.log('YEP')
-    window.location.href = 'https://mag-varosio.com/'
+    // window.location.href = 'https://mag-varosio.com/'
+    window.open('https://mag-varosio.com/', '_blank')
   }
 
   return (
@@ -54,7 +54,7 @@ const Projects = () => {
 
 
 
-              {/* ------------------- PROJ 4------------- */}
+              {/* ------------------- MOVIE JOURNAL - PROJ 4------------- */}
 
               <div className="projects-wrapper">
                 <h2 className="display-5">Movie Journal</h2>
@@ -63,7 +63,7 @@ const Projects = () => {
 
               <div className='pback'>
                 <p className='lead'><strong>Solo Project - Timeframe: 1 week.</strong></p>
-                <p className='lead'>I worked on a movie app as a solo project creating my own movie database using data from The Movie Database (TMDB) with approximately 5000 movies. The app is a social media platform to share their thoughts about movies they love. I used Django, Python, SQL, Insomnia for the Back End and React, Cloudify, SCSS and React-Bootstrap for the Front End.
+                <p className='lead'>I worked on a movie app as a solo project creating my own movie database using data from The Movie Database (TMDB) with approximately 5000 movies. The app is a social media platform for people to share their thoughts about movies they love. I used Django, Python, SQL, Insomnia for the Back End and React, Cloudify, SCSS and React-Bootstrap for the Front End.
 
                 </p>
               </div>
@@ -73,7 +73,7 @@ const Projects = () => {
 
               <div className="demologo-wrapper">
                 {/* github */}
-                <a className='sitelink' target="_blank" rel="noopener noreferrer" href="https://github.com/magvarosio/proj4-SEI">
+                <a className='sitelink' target="_blank" rel="noopener noreferrer" href="https://github.com/magvarosio/Movie-journal">
                   <Card style={{ width: '7rem' }}>
                     <Card.Img variant="top" src={GithubImg} />
                   </Card>
@@ -86,7 +86,7 @@ const Projects = () => {
               </div>
 
 
-              {/* ---------------------- PROJ 3--------------------------- */}
+              {/* -------------------- AI ART - PROJ 3--------------------------- */}
 
 
               <div className="projects-wrapper">
@@ -96,7 +96,7 @@ const Projects = () => {
 
               <div className='pback'>
                 <p className='lead'><strong> Group Project (3 People) - Timeframe: 1 week.</strong></p>
-                <p className='lead'>As a group, we made a social media platform for people to share art created with AI. We used <strong>Express</strong>  <strong>Insomnia</strong>, and <strong>MongoDB</strong> for the backend and <strong>React</strong>, <strong>SCSS</strong>, and <strong>Bootstrap</strong> for the front end. We applied the skills and knowledge we gained during the Software Engineering Immersive course at General Assembly to create this project.
+                <p className='lead'>As a group, we made a social media platform for people to share art created with AI. We used <strong>Express</strong>  <strong>Insomnia</strong>, and <strong>MongoDB</strong> for the backend and <strong>React</strong>, <strong>SCSS</strong>, and <strong>Bootstrap</strong> for the frontend. We applied the skills and knowledge we gained during the Software Engineering Immersive course at General Assembly to create this project.
                 </p>
               </div>
               <div className="demo-wrapper">
@@ -105,7 +105,7 @@ const Projects = () => {
 
               <div className="demologo-wrapper">
                 {/* github */}
-                <a className='sitelink' target="_blank" rel="noopener noreferrer" href="https://github.com/magvarosio/project-3_SEI67">
+                <a className='sitelink' target="_blank" rel="noopener noreferrer" href="https://github.com/magvarosio/AI-Art">
                   <Card style={{ width: '7rem' }}>
                     <Card.Img variant="top" src={GithubImg} />
                   </Card>
@@ -118,7 +118,7 @@ const Projects = () => {
               </div>
 
 
-              {/* ---------------------- PROJ 2--------------------------- */}
+              {/* ---------------------- BORED? - PROJ 2--------------------------- */}
 
               <div className="projects-wrapper">
                 <h2 className="display-5">Bored?</h2>
@@ -136,7 +136,7 @@ const Projects = () => {
               </div>
 
               <div className="demologo-wrapper">
-                <a className='sitelink' target="_blank" rel="noopener noreferrer" href="https://github.com/magvarosio/random-activity-generator">
+                <a className='sitelink' target="_blank" rel="noopener noreferrer" href="https://github.com/magvarosio/Bored">
                   <Card style={{ width: '7rem' }}>
                     <Card.Img variant="top" src={GithubImg} />
                   </Card>
@@ -149,7 +149,7 @@ const Projects = () => {
               </div>
 
 
-              {/* ---------------------- PROJ 1--------------------------- */}
+              {/* ---------------------ENERGY - PROJ 1--------------------------- */}
 
               <div className="projects-wrapper">
                 <h2 className="display-5">Energy bills Survivor</h2>
@@ -166,7 +166,7 @@ const Projects = () => {
               </div>
 
               <div className="demologo-wrapper">
-                <a className='sitelink' target="_blank" rel="noopener noreferrer" href="https://github.com/magvarosio/project-space-invaders">
+                <a className='sitelink' target="_blank" rel="noopener noreferrer" href="https://github.com/magvarosio/Energy-bills-survivor">
                   <Card style={{ width: '7rem' }}>
                     <Card.Img variant="top" src={GithubImg} />
                   </Card>

@@ -24,7 +24,7 @@ const Aboutme = () => {
               <h2 className="display-3">ABOUT ME</h2>
             </div>
             <div className='pback'>
-              <p className='lead'>I have been in love with tech since I was a child. I used DOS on my first PC, and the first book I read about computer science was HTML for dummies during my summer holidays.
+              <p className='lead'> I started using DOS on my first PC when I was a child, and the first book I read about computer science was HTML for dummies during my summer holidays.
                 Later on, I studied Sound Technology, and fell in love with music programming languages like Max/Msp and Csound.
                 For me, it was extremely fascinating to create sound waves with code and make them sound through the computer. <br></br> <br></br>Following my passion about tech I worked for Apple as a Trainer for 8 yrs and dreamt about building software from scratch.
                 I decided to look into it further and I self-taught myself coding and then I recently enrolled in a full-time immersive bootcamp to learn the basics and foundation in a structured manner.
@@ -42,10 +42,11 @@ const Aboutme = () => {
             </div>
             <div className='pback'>
               <p className='lead'>Music composition is a passion of mine, and I particularly enjoy classical and electronic styles.
-                I am also interested in sound technology, which involves the manipulation and synthesis of sound. <a href="https://www.athenavarosio.com/">My Music Portfolio</a> </p>
+                I am also interested in sound technology, which involves the manipulation and synthesis of sound.  You can have a look at my music portfolio<a href="https://www.athenavarosio.com/" target="_blank" rel="noopener noreferrer"> here.</a> </p>
 
 
               <p className='lead'> Filmmaking is another interest of mine, and I enjoy learning about various film editing techniques and exploring different ways to tell stories through film. I find the process of creating and shaping a film to be extremely fascinating.</p>
+              <p className='lead'> I can speak English (fluent), Italian (native) and a bit of German (beginner). </p>
             </div>
             <div className="hobbies-wrapper">
             </div>
