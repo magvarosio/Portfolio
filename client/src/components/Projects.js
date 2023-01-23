@@ -110,7 +110,7 @@ const Projects = () => {
                     <Card.Img variant="top" src={GithubImg} />
                   </Card>
                 </a>
-                <a className='sitelink' target="_blank" rel="noopener noreferrer" href="https://github.com/magvarosio/project-3_SEI67">
+                <a className='sitelink' target="_blank" rel="noopener noreferrer" href="https://p3seiaiart.herokuapp.com/">
                   <Card style={{ width: '7rem' }}>
                     <Card.Img variant="top" src={LinkImg} />
                   </Card>
